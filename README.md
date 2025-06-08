@@ -3,7 +3,7 @@
 
 Welcome to the **Airline Satisfaction Predictor** – a machine learning web application that predicts whether a passenger is **satisfied** or **dissatisfied** based on various travel attributes. It supports both **individual predictions via a form** and **batch predictions via Excel upload**.
 
-🔗 **Live App**: [Coming Soon or Add your link here](https://airline-satisfaction-predictor-97un.onrender.com/)
+🔗 **Live App**: [LIVE LINK](https://airline-satisfaction-predictor-97un.onrender.com/)
 📁 **Colab Notebook**: [Airline Passenger Satisfaction Prediction ](https://colab.research.google.com/drive/1-i8CzEX2--OhfTApecdQM1eQJhFXiyiD?usp=sharing)
 
 ---
