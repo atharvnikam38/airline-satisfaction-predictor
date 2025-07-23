@@ -19,7 +19,7 @@ This document outlines the testing strategy for the Airline Passenger Satisfacti
 | **TC-SP-02** | **Validation:** Submit with an empty required field | 1. Leave "Age" blank. 2. Click "Predict". | A browser alert "Please fill in all required fields" appears. The form is not submitted. |
 | **TC-SP-03** | **Boundary Value:** Test minimum age | 1. Enter '1' for Age. 2. Fill other fields. 3. Click "Predict". | Form submits successfully. |
 | **TC-SP-04** | **Boundary Value:** Test maximum age | 1. Enter '120' for Age. 2. Fill other fields. 3. Click "Predict". | Form submits successfully. |
-| **TC-SP-05** | **Invalid Input:** Enter text in a number field | 1. Attempt to type 'abc' in "Flight Distance". | (Browser-dependent) The field should ideally not accept text. *Actual Result: [Document what happens]* |
+| **TC-SP-05** | **Invalid Input:** Enter text in a number field | 1. Attempt to type 'abc' in "Flight Distance". | (Browser-dependent) The field should ideally not accept text. *Actual Result: Not abel to enter characters* |
 | **TC-SP-06**| **UI:** Test tab switching | 1. Click "Batch Prediction" tab. 2. Click "Single Prediction" tab again. | The Batch tab content becomes visible, then the Single tab content becomes visible again. The 'active' class is correctly applied. |
 
 ### Scenario 2.2: Batch Prediction Feature
