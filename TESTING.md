@@ -27,9 +27,9 @@ This document outlines the testing strategy for the Airline Passenger Satisfacti
 | Test Case ID | Description | Steps | Expected Result |
 | :--- | :--- | :--- | :--- |
 | **TC-BP-01** | **Happy Path:** Upload valid `.xlsx` file | 1. Go to Batch tab. 2. Upload a valid Excel file using the template. 3. Click "Process File". | User is redirected to the batch result page with summary stats and sample data. |
-| **TC-BP-02** | **File Type Validation:** Upload a `.csv` file | 1. Go to Batch tab. 2. Attempt to upload a CSV file. | The file should be rejected by the file input filter (`accept=".xlsx,.xls"`). *Actual Result: [Document what happens]* |
+| **TC-BP-02** | **File Type Validation:** Upload a `.csv` file | 1. Go to Batch tab. 2. Attempt to upload a CSV file. | The file should be rejected by the file input filter (`accept=".xlsx,.xls"`).  |
 | **TC-BP-03** | **Backend Validation:** Upload Excel with missing columns | 1. Remove the 'Age' column from the template. 2. Upload the file. | The application should return an error page stating "Missing required columns: Age". |
-| **TC-BP-04** | **Backend Validation:** Upload Excel with invalid data | 1. Put 'abc' in an 'Age' cell. 2. Upload the file. | The application should gracefully handle the error and show a user-friendly error message. *Actual Result: [Document what happens, likely a server error]* |
+| **TC-BP-04** | **Backend Validation:** Upload Excel with invalid data | 1. Put 'abc' in an 'Age' cell. 2. Upload the file. | The application should gracefully handle the error and show a user-friendly error message. |
 | **TC-BP-05** | **UI:** Test drag-and-drop file upload | 1. Drag an Excel file onto the upload area. | The file name appears, and the "Process File" button is enabled. |
 | **TC-BP-06** | **Functionality:** Test download results link | 1. After a successful batch prediction, click "Download Full Results". | A file named `passenger_satisfaction_predictions.xlsx` is downloaded. |
 
